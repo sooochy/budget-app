@@ -5,11 +5,12 @@ import {
     CardContent,
     Typography,
     Grid,
-    Divider,
+    Divider
 } from "@material-ui/core";
 
 import useStyles from "./styles";
 import Form from "./Form/Form";
+import List from "./List/List";
 
 const Main = () => {
     const classes = useStyles();
@@ -39,7 +40,7 @@ const Main = () => {
                 <CardContent className={classes.cardContent}>
                     <Grid container spacing={2}>
                         <Grid item xs={12}>
-                            {/* <List /> */}
+                            <List />
                         </Grid>
                     </Grid>
                 </CardContent>
